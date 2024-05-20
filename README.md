@@ -13,13 +13,13 @@ Stopword Removal: Removing common words that do not contribute much to the meani
 Stemming and Lemmatization: Reducing words to their root form to ensure consistency (e.g., "running" to "run").
 
 ## Encoding Techniques
-1. Bag of Words (BoW)
+1. Bag of Words (BoW):
 The Bag of Words model converts text into a fixed-size vector by counting the frequency of each word in the text. This simple yet effective method is often used for text classification tasks.
 
-2. N-grams
+2. N-grams:
 N-grams are a contiguous sequence of n items from a given sample of text. This technique captures the context of words by considering the combination of adjacent words. For example, bigrams (2-grams) and trigrams (3-grams) are common choices.
 
-3. TF-IDF
+3. TF-IDF:
 Term Frequency-Inverse Document Frequency (TF-IDF) is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents (corpus). TF-IDF scores help in identifying the most relevant words in the text.
 
 ## Embedding with Word2Vec
@@ -29,7 +29,4 @@ Word2Vec is a popular embedding technique that represents words in a continuous 
 In the CBOW model, the context (surrounding words) is used to predict the target word. This approach is efficient and works well with smaller datasets.
 
 ### Skip-Gram
-The Skip-Gram model does the opposite of CBOW. It uses the target word to predict the context (surrounding words). This model is better for larger datasets and can capture more nuanced relationships between words.
-
-Skip-Gram
 The Skip-Gram model does the opposite of CBOW. It uses the target word to predict the context (surrounding words). This model is better for larger datasets and can capture more nuanced relationships between words.
